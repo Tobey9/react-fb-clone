@@ -1,0 +1,9 @@
+.app {
+  background-color: #fafafa;
+  height: 100%;
+}
+
+.body__app {
+  display: flex;
+  padding-top: 80px;
+}

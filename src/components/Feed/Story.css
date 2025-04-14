@@ -1,0 +1,21 @@
+.story {
+  width: 120px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 8px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+
+.story:hover {
+  transform: scale(1.05);
+}
+
+.story__avatar {
+  margin: 10px;
+  border: 5px solid #2e81f4;
+}

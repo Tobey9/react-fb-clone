@@ -1,0 +1,30 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.login__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.login__top .login__icon {
+  font-size: 5rem;
+}
+
+.login__top > h3 {
+  font-size: 1.5rem;
+}
+
+.login__top .login__icon,
+.login__top > h3 {
+  color: #1c7ed6;
+}
+
+.login .login__btn {
+  width: 300px;
+}

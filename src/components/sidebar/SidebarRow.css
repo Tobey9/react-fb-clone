@@ -1,0 +1,14 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  cursor: pointer;
+}
+
+.sidebarRow:hover {
+  background-color: #e9ecef;
+}
+
+.sidebarRow > .MuiSvgIcon-root {
+  color: #1c7ed6;
+}
