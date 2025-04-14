@@ -9,7 +9,7 @@ import { Login } from "./components/Login/Login";
 import useStateValue from "./context/useStateValue";
 
 function App() {
-  const { state } = useStateValue();
+  const { state, dispatch } = useStateValue();
   const { user } = state;
 
   return (
